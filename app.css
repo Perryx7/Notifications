@@ -1,0 +1,130 @@
+@font-face{
+    font-family: 'font_bold';
+    src: url('fonts/PlusJakartaSans-ExtraBold.ttf');
+}
+
+@font-face{
+    font-family: 'font_medium';
+    src: url('fonts/PlusJakartaSans-Medium.ttf');
+}
+
+
+.main-block{
+    max-width: 1440px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 16px;
+    
+    
+}
+
+.left-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    justify-items: center;
+    font-size: 18px;
+    font-family: 'font_bold';
+
+}
+.counter{
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+    background: darkblue;
+    color: white;
+    font-weight: 800;
+}
+
+.right-header{
+   color: hsl(219, 14%, 63%);
+   font-family: 'font_medium';
+   font-size: 13px;
+}
+.right-header:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+    padding: 10px;
+}
+.text-header
+{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+
+.body{
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    justify-content: space-around;
+    gap: 25px;
+    font-family: 'font_medium';
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+    
+
+}
+
+.card{
+    padding: 13px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 22px;
+    
+
+}
+span{
+    color: hsl(224, 21%, 14%);
+    font-weight: bold;
+}
+span:hover{
+    cursor: pointer;
+    color: darkblue;
+}
+.span1{
+    color:darkblue
+}
+.card-active{
+background: hsl(210, 60%, 98%)
+}
+.card-text1{
+    border: 1px solid  hsl(219, 14%, 63%);
+    height: auto;
+    border-radius: 7px;
+}
+.card-text2{
+display: flex;
+gap: 40px;
+height: auto;
+}
+.card-text2 img:hover{
+    cursor: pointer;
+}
+.card-text1:hover{
+    cursor: pointer;
+    background: hsl(205, 33%, 90%);
+    border: none;
+}
+.text{
+    padding: 7px;
+
+}
+img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
